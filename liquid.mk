@@ -18,10 +18,13 @@
 # $(call inherit-product, device/sample/products/backup_overlay.mk)
 
 # Get the long list of APNs
-$(call inherit-product, vendor/liquid/config/common_gsm.mk)
+#$(call inherit-product, vendor/liquid/config/common_gsm.mk)
 
 # Inherit from the common Open Source product configuration
-$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
+#$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
+
+# Inherit some common liquid stuff.
+$(call inherit-product, vendor/liquid/config/common_phone.mk)
 
 # Inherit from our omni product configuration
 $(call inherit-product, vendor/liquid/config/common.mk)
