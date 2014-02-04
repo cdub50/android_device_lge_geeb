@@ -21,7 +21,7 @@
 #$(call inherit-product, vendor/liquid/config/common_gsm.mk)
 
 # Inherit from the common Open Source product configuration
-#$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 # Inherit some common liquid stuff.
 $(call inherit-product, vendor/liquid/config/common_phone.mk)
