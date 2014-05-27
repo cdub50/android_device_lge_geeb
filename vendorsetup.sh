@@ -15,3 +15,4 @@
 #
 
 add_lunch_combo full_geeb-userdebug
+add_lunch_combo lego_geeb-userdebug
