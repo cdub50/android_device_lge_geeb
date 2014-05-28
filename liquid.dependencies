@@ -1,0 +1,14 @@
+[
+  {
+    "remote": "gh",
+    "repository": "LiquidSmooth-Devices/android_device_lge_gee-common",
+    "target_path": "device/lge/gee-common",
+    "revision": "kitkat"
+  },
+  {
+    "remote": "gh",
+    "repository": "cdub50/kernel_msm",
+    "target_path": "kernel/lge/gee",
+    "revision": "matr1x-sm"
+  }
+]
